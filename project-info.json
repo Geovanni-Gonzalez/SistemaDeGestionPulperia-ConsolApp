@@ -1,0 +1,28 @@
+{
+    "project": "SistemaDeGestionPulperia-ConsolApp",
+    "tech": [
+        "Python",
+        "Console UI",
+        "Data Persistence"
+    ],
+    "features": [
+        "Inventory Management (CRUD)",
+        "Billing & Invoicing",
+        "Stock Control",
+        "Sales Reporting",
+        "Custom Built-ins Implementation"
+    ],
+    "stack": {
+        "language": "Python 3",
+        "framework": "Console/CLI",
+        "tools": [
+            "Native Libraries Only"
+        ],
+        "database": "Text Files (.txt)"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Sistema de gestión para pulpería en consola, implementando control de inventario, facturación y reportes sin uso de funciones prohibidas de Python.",
+        "en": "Console-based grocery store management system implementing inventory control, billing, and reporting without using forbidden Python built-in functions."
+    }
+}
