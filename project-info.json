@@ -1,28 +1,52 @@
 {
-    "project": "SistemaDeGestionPulperia-ConsolApp",
-    "tech": [
-        "Python",
-        "Console UI",
-        "Data Persistence"
-    ],
-    "features": [
-        "Inventory Management (CRUD)",
-        "Billing & Invoicing",
-        "Stock Control",
-        "Sales Reporting",
-        "Custom Built-ins Implementation"
-    ],
-    "stack": {
-        "language": "Python 3",
-        "framework": "Console/CLI",
-        "tools": [
-            "Native Libraries Only"
+    "en": {
+        "tech": [
+            "Python",
+            "CLI",
+            "Algorithm Logic",
+            "Text Utilities"
         ],
-        "database": "Text Files (.txt)"
+        "features": [
+            "Grocery store inventory management (CRUD)",
+            "Automated billing and invoicing system",
+            "Sales tracking and daily reporting",
+            "Custom logic implementation without forbidden built-ins",
+            "Robust text-based persistence system"
+        ],
+        "stack": {
+            "language": "Python 3",
+            "framework": "Console / CLI",
+            "tools": [
+                "Native Python Modules"
+            ],
+            "database": "Text Files (.txt)"
+        },
+        "screenshots": [],
+        "description": "A purist Python implementation of a grocery store management suite, developed under strict technical constraints to avoid high-level simplified built-in functions. The project showcases deep algorithmic understanding by implementing core logic with fundamental language constructs. It manages the entire operational flow of a small store—from complex inventory tracking to detailed sales reporting—proving that efficient and reliable business tools can be built using only the most essential building blocks of Python."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Sistema de gestión para pulpería en consola, implementando control de inventario, facturación y reportes sin uso de funciones prohibidas de Python.",
-        "en": "Console-based grocery store management system implementing inventory control, billing, and reporting without using forbidden Python built-in functions."
+    "es": {
+        "tech": [
+            "Python",
+            "CLI",
+            "Lógica de Algoritmos",
+            "Utilidades de Texto"
+        ],
+        "features": [
+            "Gestión de inventario para pulpería (CRUD)",
+            "Sistema automatizado de facturación",
+            "Seguimiento de ventas y reportes diarios",
+            "Implementación de lógica personalizada sin built-ins simplificados",
+            "Sistema robusto de persistencia basado en texto"
+        ],
+        "stack": {
+            "language": "Python 3",
+            "framework": "Consola / CLI",
+            "tools": [
+                "Módulos nativos de Python"
+            ],
+            "database": "Archivos de Texto (.txt)"
+        },
+        "screenshots": [],
+        "description": "Una implementación purista en Python de una suite de gestión para pulperías, desarrollada bajo estrictas restricciones técnicas para evitar funciones integradas simplificadas de alto nivel. El proyecto exhibe una profunda comprensión algorítmica al implementar la lógica central con constructos fundamentales del lenguaje. Gestiona todo el flujo operativo — desde el rastreo complejo de inventario hasta informes de ventas detallados — demostrando que se pueden construir herramientas comerciales fiables de forma nativa."
     }
 }
