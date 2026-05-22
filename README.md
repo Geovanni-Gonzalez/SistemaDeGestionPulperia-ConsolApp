@@ -1,59 +1,68 @@
-# Sistema de Gestión de Pulpería - ConsolApp 🏪
+﻿# Sistema de Gestión Pulperia ConsolApp
 
-**Estudiante:** Geovanni Gonzalez Aguilar
-**Carné:** 2022163324
-**Curso:** Taller de Programación
+## Descripción
+Sistema de consola en Python para gestionar inventario y acceso en una pulperia con archivos de texto.
 
-## 📋 Descripción
+## Objetivo
+Practicar CRUD simple, autenticación básica y persistencia local para comercio pequeño.
 
-Este proyecto consiste en un sistema de consola desarrollado en **Python** para la administración de una pulpería (tienda de abarrotes). El sistema gestiona inventarios, procesa facturas de venta y genera reportes administrativos, cumpliendo con restricciones académicas estrictas (no uso de `len`, `append`, `remove`, etc.).
+## Tecnologías utilizadas
+- Python 3
+- Consola
+- Archivos .txt
 
-## ✨ Características Principales
+## Funcionalidades principales
+- Gestión de inventario
+- Archivo de acceso
+- Interfaz de consola
+- Persistencia en Inventario.txt
 
-- **Gestión de Inventario**: Agregar, modificar y borrar productos con validación de integridad referencial.
-- **Facturación**: Carrito de compras, cálculo automático de impuestos (13%) y control de stock en tiempo real.
-- **Persistencia de Datos**: Todos los datos se guardan automáticamente en archivos de texto (`.txt`).
-- **Reportes**:
-  - Ventas por producto y cliente.
-  - Estado de utilidades.
-  - **[NUEVO]** Reporte por rango de fechas.
-  - Exportación a archivos externos.
-- **UI Innovadora**: Interfaz de consola con colores (ANSI), banners ASCII y diseño limpio.
+## Mi rol
+Implementé flujo principal, validaciónes y lectura/escritura de inventario.
 
-## 🚀 Ejecución
+## Aprendizajes clave
+- CRUD consola
+- Archivos planos
+- Validación
+- Scripts Python
 
-Para iniciar la aplicación, asegúrese de estar en la carpeta raíz del proyecto y ejecute:
-
+## Instalación y ejecución
 ```bash
-python programa/Proyecto1.py
+cd SistemaDeGestionPulperia-ConsolApp/programa
+python Proyecto1.py
 ```
 
-### Credenciales de Acceso
+## Estructura del proyecto
+- Proyecto1.py: app
+- Inventario.txt: datos
+- Acceso.txt: acceso
+- screenshots/: captura
 
-Para ingresar al módulo de inventario, utilice alguno de los siguientes usuarios:
+## Capturas o demo
+![Captura principal](screenshots/principalImage.png)
 
-- **Usuario**: `pperez` | **Clave**: `1234`
-- **Usuario**: `ccastro` | **Clave**: `admin1234`
-- **Usuario**: `mporras` | **Clave**: `mporras1`
+## Estado del proyecto
+Proyecto académico funcional.
 
-## 📂 Estructura del Proyecto
+## Valor técnico demostrado
+Demuestra automatización administrativa simple con Python.
 
-```
-SistemaDeGestionPulperia-ConsolApp/
-├── programa/
-│   ├── Proyecto1.py        # Código fuente principal
-│   ├── Acceso.txt          # Base de datos de usuarios
-│   ├── Inventario.txt      # Base de datos de productos
-│   ├── Facturas.txt        # Encabezados de facturas
-│   └── FacturasDetalle.txt # Detalle de items por factura
-├── documentacion/
-│   └── Documentacion.md    # Manual técnico y de usuario
-├── project-info.json       # Metadatos del proyecto
-└── README.md               # Este archivo
-```
+## Mejoras futuras
+- Separar módulos
+- Agregar respaldos
+- Migrar a SQLite
 
-## 🛠️ Tecnologías
+## Autor
+Geovanni González  
+Estudiante de Ingeniería en Computación  
+GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
 
-- **Lenguaje**: Python 3
-- **Interfaz**: Consola (CLI) con secuencias de escape ANSI.
-- **Base de Datos**: Archivos de Texto Plano.
+
+
+
+
+
+
+
+
+
