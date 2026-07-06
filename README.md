@@ -1,5 +1,7 @@
 ﻿# Sistema de Gestión Pulperia ConsolApp
 
+[![CI](https://github.com/Geovanni-Gonzalez/SistemaDeGestionPulperia-ConsolApp/actions/workflows/ci.yml/badge.svg)](https://github.com/Geovanni-Gonzalez/SistemaDeGestionPulperia-ConsolApp/actions/workflows/ci.yml)
+
 ## Descripción
 Sistema de consola en Python para gestionar inventario y acceso en una pulperia con archivos de texto.
 
